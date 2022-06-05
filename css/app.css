@@ -1,0 +1,61 @@
+#report{
+    display: none;
+   
+}
+
+#more{
+    display: none;
+}
+
+#replacement{
+    display: none;
+}
+
+#wife{
+    display: none;
+    
+}
+
+#lover{
+    display: none;
+}
+
+.alibi1{
+    display: none;
+}
+
+.alibi2{
+    display: none;
+}
+
+#wifeguilty{
+    display: none;
+}
+
+#loverguilty{
+    display: none;
+}
+
+#foundguilty{
+    display: none;
+}
+
+.callout{
+    background-color: rgba(41, 42, 44, 0.705);
+    border-radius: 2rem;
+    color: white;
+}
+
+.button{
+    background-color: rgb(82, 85, 88);
+    border-radius: 1.5rem;
+}
+
+#tryagain{
+    display: none;
+}
+
+img{
+    border-radius: 1rem;
+}
+

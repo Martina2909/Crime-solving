@@ -1,0 +1,107 @@
+
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"Who did it"</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+      body{
+        background-image: url(images/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+      }
+    
+    </style>
+  </head>
+   <!--background image url: https://wallpaperaccess.com/full/2766442.jpg-->
+<body>
+
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+        <div class="large-12 small-12 cell">
+          <h1 style="text-align: center; font-family: serif; font-size: 3rem; color: rgb(194, 187, 177);">Welcome to <br> <i style="font-size: 3.5rem; color: rgb(243, 217, 217);">"Who did it?"</i> </h1>
+        </div>
+      
+        <div class="large-10 small-12 cell">
+          <div class="callout" style="margin: 25px; text-align: center;">
+            Welcome detective! <br> You are here to solve the murder of <b>Thomas Morris</b>. <br> <i style="font-size: 0.7rem;">Click on the button to read the murder report.</i> <br>
+           <br> <p class="button" id="victim">MURDER REPORT</p>
+          </div>
+        </div>
+
+        <div class="large-2  cell" style="margin-top: 35px;">
+          <div class="callout hide-for-small-only" style="text-align: center;">
+            <img src="images/thomas.jpg" alt="thomas" >
+            <!--image url: https://t4.ftcdn.net/jpg/03/11/37/39/360_F_311373984_JqndiYVhzXl84qzM09RS43J9lM8XO6DX.jpg-->
+          </div>
+        </div>
+      
+
+      <div class="large-10 small-12 cell" id="report" >
+        <div class="callout" style=" text-align: center;">
+          <p id="replace">
+              <b >Report:</b> <br> Thomas Morris, male, 35 years old <br>cause of death: shot in the chest <br>place: victim's house <br> time of death: between 1 and 2 AM
+              <br> <i style="font-size: 0.6rem;">Double click if you want to see the crime scene evidence.</i>
+          </p>
+
+          <p id="replacement">
+            <b>Evidence:</b> <br> stroke of brown hair <br> bullet
+            <br> <i style="font-size: 0.6rem;">Double click if you want to see the suspects.</i>
+          </p>
+
+          <!--image url: https://toppik.com/hairtoppiksblog/choosing-hair-colors-for-older-women/shutterstock_176500799/-->
+          <img src="images/wife.jpg" alt="wife" id="wife" >
+          <p class="alibi1">
+              <b>Wife's alibi:</b> <i>"I went to a birthday party, got home around midnight. My husband wasn't home, like usual so I just went to sleep. The next morning I saw him dead. That's all I know."</i>
+              <br> <i style="font-size: 0.6rem;">Click on the wife's photo to see the second suspect.</i>
+          </p>
+
+          <!--image url: https://w0.peakpx.com/wallpaper/74/338/HD-wallpaper-cute-red-hair-girl-beautiful-beauty-blue-eyes-face-pretty-red-hair-smile.jpg-->
+          <img src="images/lover.jpg" alt="lover" id="lover">
+          <p class="alibi2">
+            <b>Lover's alibi:</b> <i>"I don't know why is this any of your bussiness. If you really have to know, I was home alone the entire day. Anything else?"</i>
+          </p>
+
+
+        </div>
+      </div>
+
+      <div class="large-2 small-12 cell" id="more" style="text-align: center;" >
+        <div>
+          <p class="button" id="evidence">Evidence</p>
+          <p class="button" id="suspects">Suspects</p>
+        </div>
+      </div>
+
+
+
+      <div class="large-12 small-12 cell" id="guilty" >
+        <div>
+          <p class="button" id="wifeguilty">Wife is guilty</p>
+          <p class="button" id="loverguilty">Lover is guilty</p>
+
+          <!--image url: https://www.onlygfx.com/wp-content/uploads/2018/04/guilty-stamp-3.png-->
+          <img src="images/guilty.png" alt="guilty" id="foundguilty">
+          <p class="button" id="tryagain">TRY AGAIN</p>
+        </div>
+      </div>
+
+     
+
+    </div>
+
+  </div>
+
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
